@@ -1,0 +1,683 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+
+}
+
+.header {
+    background-image: url(./images/header.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    width: 100%;
+    
+}
+
+
+
+.nav-title {
+    float: left;
+    margin-left: 15%;
+    margin-top: 20;
+
+}
+
+.nav-title a {
+    text-decoration: none;
+    color: #FF305B;
+    font-weight: 800;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+
+}
+
+.nav-links .dif a {
+    text-decoration: none;
+    color: #FF305B;
+
+}
+
+.nav-links {
+    float: right;
+
+    margin-top: 20;
+}
+
+.nav-links a {
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+
+}
+
+.nav-links ul li {
+
+    float: left;
+    list-style: none;
+    padding: 10px;
+    color: aliceblue;
+
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    width: 90%;
+    overflow: auto;
+
+}
+
+.content {
+    color: aliceblue;
+    margin-top: 15%;
+    text-align: center;
+}
+
+.content h2 {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    font-style: normal;
+    color:
+        RGB(255, 255, 255);
+}
+
+.content h1 {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    font-style: normal;
+    color:
+        RGB(255, 48, 91)
+}
+
+.content h4 {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    font-style: normal;
+    color:
+        RGB(255, 255, 255);
+
+}
+
+.presentation {
+
+    height: 550;
+    margin-top: 40;
+    margin-right: 10%;
+
+}
+
+.pic {
+
+    width: 35%;
+    float: left;
+    padding-left: 30px;
+    position: relative;
+    left: 150;
+}
+
+.parent-photo {
+    margin-top: 10%;
+    width: 370;
+    height: 450;
+    border-width: 10;
+    border-color: #555555;
+    border-style: solid;
+    border-radius: 2%;
+    position: relative;
+    margin-left: 10%;
+    z-index: 5;
+    right: 20;
+
+
+}
+
+.presentation .inner {
+    position: relative;
+
+}
+
+
+.child-photo {
+    position: absolute;
+    z-index: 10;
+    bottom: 20;
+    left: -25;
+    border-radius: 2%;
+
+
+}
+
+.caption {
+    position: absolute;
+    width: 360;
+    height: 440;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 30;
+    opacity: 0;
+    transition: opacity 1s;
+
+}
+
+.parent-photo:hover .caption {
+    opacity: 1;
+
+}
+
+
+
+
+
+
+
+
+.dash-line {
+    margin-top: 20;
+    margin-bottom: 20;
+    width: 570;
+    border-style: dashed;
+    border-color: #B3B3B3;
+    border-width: 0.7;
+
+}
+
+.introduction {
+
+    width: 45%;
+    float: right;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+.introduction h2 {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    font-size: 34px;
+    font-style: normal;
+    color: RGB(51, 51, 51);
+}
+
+.introduction p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    color: RGB(85, 85, 85);
+    line-height: 1.5;
+}
+
+.introduction ul li {
+    float: left;
+    width: 40%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    color: RGB(85, 85, 85);
+    line-height: 3;
+
+}
+
+.introduction ul li span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: normal;
+    color: RGB(51, 51, 51);
+}
+
+.introduction button {
+    width: 150;
+    height: 50;
+    background-color: #FF305B;
+    color: white;
+    border-radius: 5%;
+    border-color: #FF305B;
+    border-bottom: #FF305B;
+    border-right: #FF305B;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    margin-top: 30;
+
+}
+
+.our-services {
+    background-color: #F1F1F1;
+    margin-top: 8%;
+    height: 70vh;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.our-services .title h1 {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    font-style: normal;
+    color: RGB(51, 51, 51);
+    margin-top: 50;
+}
+
+.sline {
+    width: 80;
+    height: 0.5;
+    color: #FF305B;
+    border-style: solid;
+    border-width: 0.1;
+    margin-left: 48%;
+    margin-top: 5;
+}
+
+.mline {
+    width: 170;
+    height: 0.5;
+    color: #FF305B;
+    border-style: solid;
+    border-width: 0.1;
+    margin-left: 45%;
+    margin-top: 4;
+}
+
+.dline {
+    width: 80;
+    height: 0.5;
+    color: #FF305B;
+    border-style: solid;
+    border-width: 0.1;
+    margin-left: 48%;
+    margin-top: 4;
+}
+
+.services {
+    margin-top: 6%;
+    width: 24%;
+    float: left;
+    height: 50%;
+    padding-top: 50;
+    margin-left: 10;
+    transition: transform 1s 0.2 ease-in-out;
+
+}
+
+.services:hover {
+    transform: scale(1, 1);
+    background-color: #FFFFFF;
+}
+
+.our-services .services h2 {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    font-style: normal;
+    color: RGB(51, 51, 51);
+    padding-top: 40;
+
+}
+
+.our-services .services p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    color: RGB(85, 85, 85);
+    line-height: 2;
+
+}
+
+.our-portifolio {
+    text-align: center;
+    height: 50vh;
+}
+
+
+.our-portifolio h1 {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    font-style: normal;
+    color: RGB(51, 51, 51);
+    margin-top: 50;
+}
+
+.others {
+    margin-top: 20;
+    margin-left: 35%;
+}
+
+.our-portifolio .others ul li {
+    list-style: none;
+    float: left;
+    padding-left: 10;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    margin: 20;
+}
+
+.our-portifolio .others .diff a {
+    text-decoration: none;
+    color: #FF305B;
+
+}
+
+.our-portifolio .others ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.our-portifolio .hossam {
+    margin-top: 6%;
+    margin-left: 8%;
+
+}
+
+
+.our-portifolio .hossam .img-items {
+    width: 30%;
+    float: left;
+    padding: 30;
+
+}
+
+.iinner {
+    position: relative;
+}
+
+.hossam .img-items img {
+    width: 100%;
+
+}
+
+.overgroud {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.img-items :hover.overgroud {
+    opacity: 1;
+}
+
+
+.clients-feedback {
+    text-align: center;
+    height: 70vh;
+    margin-top: 40%;
+}
+
+.clients-feedback h1 {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    font-style: normal;
+    color: RGB(51, 51, 51);
+
+
+}
+
+.bigbox {
+    background-color: #F1F1F1;
+    margin-top: 40;
+    margin-left: 26%;
+    width: 750;
+    height: 270;
+    z-index: 2;
+    position: relative;
+}
+
+.smallbox {
+    width: 50;
+    height: 50;
+    z-index: 5;
+    border-top: 100px #FF305B;
+    border-left: 100px #FF305B;
+    border-right: 100px #F1F1F1;
+    border-bottom: 100px #F1F1F1;
+    border-style: solid;
+    position: absolute;
+
+}
+
+.bigbox .smallbox .img {
+    position: absolute;
+    z-index: 8;
+    top: -52;
+    left: -50;
+}
+
+.bigbox .smallbox .img img {
+    border-radius: 50%;
+    width: 100;
+
+}
+
+.who {
+    z-index: 10;
+    position: absolute;
+    text-align: left;
+    padding-left: 180;
+    bottom: 60;
+
+}
+
+.clients-feedback .who h1 {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    font-style: normal;
+    color:
+        RGB(51, 51, 51);
+}
+
+.clients-feedback .who h5 {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    font-style: normal;
+    color: RGB(85, 85, 85);
+    line-height: 2;
+
+
+}
+
+.clients-feedback .who p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 2;
+    color: RGB(85, 85, 85);
+    background-color: RGBA(0, 0, 0, 0);
+    vertical-align: baseline;
+}
+
+.our-blog {
+    background-color: #F1F1F1;
+    height: 100vh;
+    text-align: center;
+
+}
+
+.our-blog .head {
+    padding-top: 50;
+}
+
+.our-blog .head h2 {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    font-style: normal;
+    color: RGB(51, 51, 51);
+}
+
+.team .blog-team {
+    width: 33.33%;
+    float: left;
+    text-align: left;
+    height: 70vh;
+    padding-top: 50;
+}
+
+.team .blog-team .inner img {
+    width: 100%;
+}
+
+.inner {
+    background-color: #FFFFFF;
+    padding: 10;
+    width: 80%;
+    height: 65vh;
+    margin-left: 50;
+}
+
+.our-blog .team .blog-team .inner .information {
+    margin-top: 15;
+}
+
+.our-blog .team .blog-team .inner .information p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:
+        RGB(85, 85, 85);
+
+}
+
+.our-blog .team .blog-team .inner .information h1 {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: 0000;
+    padding-top: 10;
+}
+
+.our-blog .team .blog-team .inner .information p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:
+        RGB(85, 85, 85);
+    padding-top: 20;
+}
+
+.our-blog .team .blog-team .inner .information button {
+    padding-top: 20;
+    background-color: transparent;
+    border-style: none;
+
+}
+
+.contact-us {
+    text-align: center;
+    margin-top: 8%;
+}
+
+.contact-us h2 {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    font-style: normal;
+    color: RGB(51, 51, 51);
+
+}
+
+.u-data {
+    margin-top: 30;
+    margin-left: 28%;
+}
+
+.name,
+.email {
+    float: left;
+    padding: 15;
+}
+
+.name input {
+    width: 300;
+    height: 35;
+}
+
+.email input {
+    width: 300;
+    height: 35;
+}
+
+.subject input {
+    margin-top: 25;
+    width: 640;
+    height: 35;
+}
+
+.comment textarea {
+    margin-top: 35;
+    width: 640;
+    height: 100;
+}
+
+.s-button {
+    margin-top: 50;
+    margin-right: 32%;
+}
+
+.s-button button {
+    width: 150;
+    height: 40;
+    border: #FF305B;
+    border-style: solid;
+    background-color: #FF305B;
+    color: aliceblue;
+    border-radius: 6%;
+
+}
+
+.last {
+    background-color: #333333;
+    height: 20vh;
+    margin-top: 40;
+}
+
+.last {
+    text-align: center;
+}
+
+.last p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:
+        RGB(255, 255, 255);
+    padding-top: 70
+}
+
+.last span {
+    color: #FF305B;
+}
